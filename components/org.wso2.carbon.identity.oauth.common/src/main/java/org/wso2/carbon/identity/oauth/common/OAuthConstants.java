@@ -301,6 +301,13 @@ public final class OAuthConstants {
 
     public static final String REQUESTED_ACTOR = "requested_actor";
 
+    /**
+     * Consent page request parameter carrying the display name of the agent that initiated an
+     * On-Behalf-Of (OBO) delegation. Present only for agent-delegation requests so that the consent
+     * screen can indicate which agent will be acting on the user's behalf.
+     */
+    public static final String REQUESTED_ACTOR_NAME = "requestedActor";
+
     private OAuthConstants() {
 
     }

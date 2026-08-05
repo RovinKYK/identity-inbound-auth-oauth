@@ -135,7 +135,6 @@ public final class OAuthConstants {
             ".EnableHybridFlowAppLevelValidation";
     public static final String RESTRICT_FRAGMENT_COMPONENTS = "OAuth.Callback.RestrictFragmentComponents";
 
-    // Token Exchange delegation property key
     public static final String ACTOR_SUBJECT = "ACTOR_SUBJECT";
     public static final String EXISTING_ACT_CLAIM = "EXISTING_ACT_CLAIM";
 
